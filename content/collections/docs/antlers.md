@@ -159,7 +159,7 @@ The simplest way to escape data is by using the [sanitize](/modifiers/sanitize) 
 
 Antlers can handle logic and conditional statements, just like native PHP. You can use logic to check settings, variables, or even user data and alter the output of your page.
 
-You may construct conditional statements using the `if`, `else`, `elseif`, `unless` keywords, and use any of PHP's [comparison](https://www.php.net/manual/en/language.operators.comparison.php) and [logical](https://www.php.net/manual/en/language.operators.logical.php) operators.
+You may construct conditional statements using the `if`, `else`, `elseif`, `unless` keywords, and use any of PHP's [comparison](https://www.php.net/manual/en/language.operators.comparison.php) and [logical](https://www.php.net/manual/en/language.operators.logical.php) operators, except the double pipe (it's too close to our Modifier syntax).
 
 ```
 {{ if songs === 1 }}
